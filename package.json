@@ -1,0 +1,24 @@
+{
+    "name": "[战绩记录]RaidRecord",
+    "main": "src/mod.js",
+    "version": "0.4.0",
+    "license": "CC-BY-SA",
+    "author": "Suntion",
+    "sptVersion": "~3.11",
+    "scripts": {
+      "环境初始化": "npm install",
+      "构建": "node ./build.mjs",
+      "构建-详细模式": "node ./build.mjs --verbose"
+    },
+    "devDependencies": {
+      "@types/node": "22.16.0",
+      "typescript": "5.9.2",
+      "@typescript-eslint/eslint-plugin": "8.44.0",
+      "@typescript-eslint/parser": "8.44.0",
+      "json5": "2.2.3",
+      "tsyringe": "4.10.0",
+      "winston": "3.17.0",
+      "fs-extra": "11.3.2",
+      "archiver": "7.0.1"
+    }
+}
